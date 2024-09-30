@@ -1,0 +1,120 @@
+/* styles.css */
+body {
+    font-family: 'courier new', Monospace;
+    margin: 0;
+    background-color:peachpuff;
+    color: #333;
+    line-height: 1.6;
+    size: 80px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+header {
+    background: cadetblue;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3.5em;
+}
+
+header p {
+    margin: 10px 0 0;
+}
+
+nav {
+    background:salmon;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color:black;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background:wheat;
+    border-radius: 10px;
+}
+
+main {
+    padding: 20px 0;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: darkcyan;
+}
+
+.about p {
+    margin: 20px 0;
+}
+
+.places .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background:antiquewhite;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    margin: 10px 0;
+    color: peru;
+}
+
+.card p {
+    padding: 0 15px;
+    margin: 10px 0;
+}
+
+footer {
+    background:cadetblue;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
